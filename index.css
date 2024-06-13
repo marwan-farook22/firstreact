@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0em;
+  padding: 0em;
+  box-sizing: border-box;
+}
+.mid {
+  @apply midmobile:text-red-700 midmobile:text-lg;
+}
